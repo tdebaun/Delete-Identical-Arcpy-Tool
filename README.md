@@ -1,6 +1,8 @@
 # Delete-Identical-Arcpy-Tool
 A simple script to trim down ArcGIS data based on rows with identical field values. This script can be used as a simplified replacement for the Delete Identical Tool, which is locked to higher ArcGIS license levels. The script searches the chosen shapefile based on the specified fields. Each time a new unique value is encountered in the chosen fields that row is added to a set. Subsequent rows are checked against this set, and when a subsequent row matches a row already in the set it is deleted. When multiple fields are entered the tool only removes rows that match a previously checked row in all search fields.
 
+There are two versions of the script, one that simply performs the desired actions (DeleteIdentical) and another that keeps track of and reports how many unique rows there are and how many rows were deleted (Delete Identical with Counters)
+
 
 You will need to enter the filepath of the shapefile to run the tool on when prompted. 
 
