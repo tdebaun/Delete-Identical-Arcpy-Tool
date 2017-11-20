@@ -2,11 +2,6 @@
 # Name:        Delete Identical Script
 # Purpose: This script searches an attribute table based on a single field
 # identifying all unique values and deleting all duplicte entries after the first.
-#
-# Author:      evesham mua
-#
-# Created:     01/09/2017
-# Copyright:   (c) evesham mua 2017
 #-------------------------------------------------------------------------------
 
 import arcpy
